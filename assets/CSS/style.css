@@ -256,6 +256,17 @@ footer{
     width: 100%;
 }
 
+/* Form */
+
+.form-section {
+    clear: left;
+    background: url("https://codeinstitute.s3.amazonaws.com/FundamentalsProjects/HTML-CSS/formbg.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 900px;
+}
+
+
 
 /* media queries */
 
@@ -336,6 +347,22 @@ footer{
 
     #photos {
         column-count: 3;
+    }
+
+    .join-button {
+        margin-top: 20px;
+        border-radius: 2px;
+        padding: 15px 32px 15px 32px;
+        text-align: center;
+        font-size: 100%;
+        background-color: #f16c6b;
+        color: #fafafa;
+        display: block;
+    }
+    
+    .join-button:hover {
+        background-color: #fafafa;
+        color: #f16c6b;
     }
 
 }
